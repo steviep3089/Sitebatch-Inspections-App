@@ -40,11 +40,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "5749ec43-ef8a-4d45-84ba-0b827a345c74"
-      }
-    },
     "plugins": [
       "expo-status-bar",
       [
@@ -54,6 +49,12 @@
           "backgroundColor": "#ffffff"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7207017e-1f15-4c1c-82df-80eb0eab26d9"
+      }
+    },
+    "owner": "steviep3089"
   }
 }

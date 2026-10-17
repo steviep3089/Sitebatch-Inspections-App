@@ -7,12 +7,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.steviep3089.inspectionsapp",
@@ -26,7 +20,6 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
       "package": "com.steviep3089.inspectionsapp",
       "intentFilters": [
         {
@@ -34,7 +27,7 @@
           "autoVerify": true,
           "data": [
             {
-                "scheme": "inspectionsapp"
+              "scheme": "inspectionsapp"
             }
           ],
           "category": [
@@ -51,6 +44,16 @@
       "eas": {
         "projectId": "5749ec43-ef8a-4d45-84ba-0b827a345c74"
       }
-    }
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ]
   }
 }
